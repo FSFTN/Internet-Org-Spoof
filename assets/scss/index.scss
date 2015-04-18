@@ -35,66 +35,17 @@
     }
   }
 }
-.content{
-  .latest-updates{
-    width: 100;
-    background: #fff;
-  }
-  .homepage-bg{
-    background-color: #580D76;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 200%;
-  }
-  #round-globe-wrapper {
-    left: 50%;
-    top: 120%;
-    position: absolute;
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border-radius: 100%;
-    overflow: hidden;
-    width: 800px;
-    height: 800px;
-    z-index: 0;
-    -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000);
-    #home-globe {
-     width: 101.6%;
-     position: absolute;
-     left: 50%;
-     -moz-transform: translateX(-50%);
-     -ms-transform: translateX(-50%);
-     -webkit-transform: translateX(-50%);
-     transform: translateX(-50%);
-     top: -0.8%;
-   }
-  }
-  .headline-1 {
-    top: 55%;
-    -moz-transform: translateY(-60%);
-    -ms-transform: translateY(-60%);
-    -webkit-transform: translateY(-60%);
-    transform: translateY(-60%);
-  }
-
-  .fb-mantra{
+#intro{
+  h2{
     text-transform: uppercase;
     position: relative;
-    font-size: 38px;
+    font-size: 40px !important;
     margin-bottom: 10px;
     font-weight: 600;
     text-align: center;
-    margin-top: 24%;
+    line-height: 3rem;
   }
-  .fb-mantra2{
-    @extend .fb-mantra;
-    margin-top: 43%;
+  .centercenter{
+    top: 30% !important;
   }
 }

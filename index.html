@@ -6,6 +6,7 @@
     <title>INTERNET.ORG</title>
     <link rel="stylesheet" href="assets/css/foundation.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/normalize.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/main-desktop.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/index.min.css" type="text/css" media="all" />
     <script src="assets/js/vendor/modernizr.js"></script>
   </head>
@@ -30,29 +31,103 @@
         </section>
       </nav>
     </div>
-    <div class="content row">
-      <div class="homepage-bg" style=""></div>
-      <h2 class="fb-mantra">The more people connect,<br>the better our revenue gets.</h2>
-      <div id="round-globe-wrapper">
-        <video id="home-globe" autoplay="" loop="" poster="/assets/media/desktop/HOMEPAGE/globe-poster.jpg?v=adec14a">
-         <source class="source-mp4" src="assets/media/desktop/HOMEPAGE/Globe.mp4?v=adec14a" type="video/mp4">
-         <source class="source-mp4" src="assets/media/desktop/HOMEPAGE/Globe.webm?v=adec14a" type="video/webm">
-         <source class="source-mp4" src="assets/media/desktop/HOMEPAGE/Globe.ogv?v=adec14a" type="video/ogg">
-        </video>
-      </div>
-      <div class="">
-        <h2 class="fb-mantra2"><span class="digit-two">2</span>/3 of the world is not <br>connected to the facebook.</h2>
-      </div>
-    </div>
-    <script src="assets/js/vendor/jquery.js"></script>
-    <script src="assets/js/vendor/fastclick.js"></script>
-    <script src="assets/js/foundation.min.js"></script>
-    <script src="assets/js/index.js"></script>
-    <script>
-      $(document).foundation();
+    <div id="page-wrapper">
+      <a target="_top" id="banner" href="http://internet.org/innovationchallenge">
+        <div id="updates-wrapper" class="inner-wrapper" style="display: block;">
+          <h2>Latest Update</h2>
+          <div class="update" data-href="http://internet.org/press/internet-dot-org-app-now-available-in-india" style="display: none;"><span>Internet.org App Now Available in India</span><span class="arrow"><em class="fa fa-chevron-right"></em></span></div><div class="update" data-href="http://internet.org/press/internet-dot-org-app-available-in-ghana" style="display: none;"><span>Internet.org App Available in Ghana</span><span class="arrow"><em class="fa fa-chevron-right"></em></span></div><div class="update" data-href="http://internet.org/press/internet-dot-org-app-launches-in-colombia" style="display: none;"><span>Internet.org App Launches in Colombia</span><span class="arrow"><em class="fa fa-chevron-right"></em></span></div><div class="update" data-href="http://internet.org/innovationchallenge" style="display: block;"><span>The Internet.org Innovation Challenge - India entry deadline has been extended until April 30</span><span class="arrow"><em class="fa fa-chevron-right"></em></span></div></div>
+      </a>
 
-      
-    </script>
-  </body>
 
-</html>
+
+      <div class="abovefold-caret-down fade-out-after-scroll" style="display: none;">
+        <div class="homepage-explore-more-text">Explore More</div>
+        <i class="fa fa-angle-down"></i>
+      </div>
+
+      <div id="main" class="landing homepage">
+        <div class="fb-loader-wrapper" style="display: none;">
+          <div class="internet-org-logo"></div>
+          <div class="fb-loader"></div>
+        </div>
+        <section id="intro">
+          <div class="intro-wrapper">
+            <div class="homepage-bg" style="background-image: url(http://connect.internet.org/assets/images/homepage/masks/mm.jpg);"></div>
+            <div id="round-globe-wrapper">
+              <video id="home-globe" autoplay="" loop="" poster="//djgefctqm8nri.cloudfront.net/assets/media/desktop/HOMEPAGE/globe-poster.jpg?v=adec14a">
+                <source class="source-mp4" src="//djgefctqm8nri.cloudfront.net/assets/media/desktop/HOMEPAGE/Globe.mp4?v=adec14a" type="video/mp4">
+                  <source class="source-mp4" src="//djgefctqm8nri.cloudfront.net/assets/media/desktop/HOMEPAGE/Globe.webm?v=adec14a" type="video/webm">
+                    <source class="source-mp4" src="//djgefctqm8nri.cloudfront.net/assets/media/desktop/HOMEPAGE/Globe.ogv?v=adec14a" type="video/ogg">
+                    </video>
+                  </div>
+                  <div class="headline-wrapper headline-1 fadeOut skrollable skrollable-between" data-bottom-top="transform: translateY(-60%);" data-top-bottom="transform: translateY(-100%);" style="-webkit-transform: translateY(-68.5208775654636%); transform: translateY(-68.5208775654636%);">
+                    <h2>The more people connect,<br>the better our revenue gets.</h2>
+                  </div>
+                  <div class="headline-wrapper headline-2 skrollable skrollable-before" data-bottom-top="transform: translateY(00%);" data-top-bottom="transform: translateY(-50%);" style="-webkit-transform: translateY(0%); transform: translateY(0%);">
+                    <div class="centercenter text">
+                      <h2><span class="digit-two">2</span>/3 of the world is not <br>connected to the facebook</h2>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section id="stories-gallery">
+                <h2>THESE ARE THEIR STORIES</h2>
+                <div class="stories-arrow stories-left"><div clas="caret"></div></div>
+                <ul id="stories-gallery-track">
+                  <li id="story1">
+                    <a data-ga="homepage-story-nav, click, erika-esmeralda" target="_self" class="video-thumb-container" href="/story/erika-esmeralda">
+                      <div class="round-story-thumb"></div>
+                      <div class="text">
+                        <h4>Erika &amp;<br>Esmeralda</h4>
+                        <h5>11-year-old inventors</h5>
+                        <div class="btn btn-white btn-see-more">Learn More</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li id="story2">
+                    <a data-ga="homepage-story-nav, click, mehtar-mostak" target="_self" class="video-thumb-container" href="/story/lian">
+                      <div class="round-story-thumb"></div>
+                      <div class="text">
+                        <h4>&nbsp;<br>Lian</h4>
+                        <h5>Record collector</h5>
+                        <div class="btn btn-white btn-see-more">Learn More</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li id="story3">
+                    <a data-ga="homepage-story-nav, click, mehtar-mostak" target="_self" class="video-thumb-container" href="/story/mehtar-mostak">
+                      <div class="round-story-thumb"></div>
+                      <div class="text">
+                        <h4>Mehtar &amp;<br>Mostak</h4>
+                        <h5>Agricultural innovators</h5>
+                        <div class="btn btn-white btn-see-more">Learn More</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li id="story4">
+                    <a data-ga="homepage-story-nav, click, neesha" target="_self" class="video-thumb-container" href="/story/neesha">
+                      <div class="round-story-thumb"></div>
+                      <div class="text">
+                        <h4>&nbsp;<br>Neesha</h4>
+                        <h5>Daughter of magicians</h5>
+                        <div class="btn btn-white btn-see-more">Learn More</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <div class="stories-arrow stories-right"><div clas="caret"></div></div>
+              </section>
+            </div>
+          </div>
+          <script src="assets/js/vendor/jquery.js"></script>
+          <script src="assets/js/vendor/fastclick.js"></script>
+          <script src="assets/js/foundation.min.js"></script>
+          <script src="assets/js/index.js"></script>
+          <script>
+            $(document).foundation();
+
+
+          </script>
+        </body>
+
+      </html>
