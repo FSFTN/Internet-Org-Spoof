@@ -41,7 +41,6 @@
     background: #fff;
   }
   .homepage-bg{
-    background-image: url(http://connect.internet.org/assets/images/homepage/masks/neesha.jpg);
     background-color: #580D76;
     position: absolute;
     top: 0;
@@ -50,5 +49,37 @@
     right: 0;
     background-size: 100%;
     background-repeat: no-repeat;
+  }
+  #round-globe-wrapper {
+    left: 50%;
+    top: 60%;
+    position: absolute;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    overflow: hidden;
+    width: 800px;
+    height: 800px;
+    z-index: 0;
+    -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000);
+  }
+  .headline-1 {
+    top: 55%;
+    -moz-transform: translateY(-60%);
+    -ms-transform: translateY(-60%);
+    -webkit-transform: translateY(-60%);
+    transform: translateY(-60%);
+  }
+
+  .fb-mantra{
+    text-transform: uppercase;
+    position: relative;
+    font-size: 38px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 250px;
   }
 }
