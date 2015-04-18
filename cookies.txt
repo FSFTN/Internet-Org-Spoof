@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.internet.org	TRUE	/	FALSE	1999999999	datr	LiMyVUYzBTWySECMeYhAa0Jg
+.internet.org	TRUE	/	FALSE	1999999999	noscript	1
+.facebook.com	TRUE	/	FALSE	1999999999	datr	4L4tVXlsSB1BQPnXXIZETHlM
+.facebook.com	TRUE	/	FALSE	1999999999	reg_fb_ref	https%3A%2F%2Fwww.facebook.com%2Frobots.txt
+.facebook.com	TRUE	/	FALSE	1999999999	reg_fb_gate	https%3A%2F%2Fwww.facebook.com%2Frobots.txt
+.facebook.com	TRUE	/	FALSE	1999999999	reg_ext_ref	deleted
+
