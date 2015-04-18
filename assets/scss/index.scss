@@ -1,4 +1,54 @@
+/*navbar */
 .top-bar{
   background: #6B20A1;
   height: 52px;
+  &.expanded{
+    .title-area{
+      background: #6B20A1;
+    }
+    ul.right{
+      margin-right: 0px;
+    }
+  }
+  a{
+    img{
+      width: 200px;
+      height: 40px;
+      margin-left: 185px;
+    }
+  }
+  ul.right{
+    margin-right: 200px;
+    li{
+      a{
+        height: 52px;
+        line-height: 3.5rem !important;
+        font-weight: 600;
+        font-size: 12px;
+        color: #ccbcdc !important;
+        text-transform: uppercase; 
+        border-left: 1px solid #55187f;
+      }
+      a.one{
+        border-left: 0px;
+      }
+    }
+  }
+}
+.content{
+  .latest-updates{
+    width: 100;
+    background: #fff;
+  }
+  .homepage-bg{
+    background-image: url(http://connect.internet.org/assets/images/homepage/masks/neesha.jpg);
+    background-color: #580D76;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 }
