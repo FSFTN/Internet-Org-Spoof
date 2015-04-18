@@ -30,7 +30,8 @@ section h2 {
   margin-bottom: 10px;
   font-weight: 600;
   text-align: center;
-  line-height: 3rem; }
+  line-height: 3rem;
+  z-index: 98 !important; }
 section .centercenter {
   top: 30% !important; }
 
