@@ -34,10 +34,11 @@
   left: 0;
   right: 0;
   background-size: 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  height: 200%; }
 .content #round-globe-wrapper {
   left: 50%;
-  top: 60%;
+  top: 120%;
   position: absolute;
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -49,6 +50,15 @@
   height: 800px;
   z-index: 0;
   -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000); }
+  .content #round-globe-wrapper #home-globe {
+    width: 101.6%;
+    position: absolute;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: -0.8%; }
 .content .headline-1 {
   top: 55%;
   -moz-transform: translateY(-60%);
@@ -62,6 +72,6 @@
   margin-bottom: 10px;
   font-weight: 600;
   text-align: center;
-  margin-top: 250px; }
+  margin-top: 240px; }
 
 /*# sourceMappingURL=index.css.map */
