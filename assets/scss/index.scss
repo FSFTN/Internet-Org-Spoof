@@ -91,6 +91,10 @@
     margin-bottom: 10px;
     font-weight: 600;
     text-align: center;
-    margin-top: 240px;
+    margin-top: 24%;
+  }
+  .fb-mantra2{
+    @extend .fb-mantra;
+    margin-top: 43%;
   }
 }
