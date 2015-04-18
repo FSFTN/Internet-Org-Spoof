@@ -30,12 +30,14 @@ ruby -v
 cd ~/var/www/html
 #clone the repo
 git clone git@github.com:FSFTN/internet_org_spoof.git
+cd internet_org_spoof
+#change to develop branch
+git checkout develop
 ```
 
 ### Install required gems
 
 ```sh
-cd internet_org_spoof
 bundle install
 ```
 ### Download live-reload plugin
@@ -56,4 +58,4 @@ https://github.com/oklai/koala/wiki/Unable-to-run-Koala-in-Linux
 
 ### Note
 
-If you are not comfortable with the installation process or sass you can still work on the project by simply creating a css file inside `css` directory and include that in the appropriate html file. internet_org_spoof
+If you are not comfortable with the installation process or sass you can still work on the project by simply creating a css file inside `css` directory and include that in the appropriate html file. 
