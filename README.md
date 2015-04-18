@@ -47,6 +47,9 @@ http://livereload.com/extensions/
 ```sh
 #run guard command inside the project root directory
 guard
+#goto
+http://localhost/internet_org_spoof/index.html
+# once you click the browser livereload plugin you should be able to see successful connection message in guard console.
 ```
 ### Download kola to convert scss to css
 http://koala-app.com/
@@ -58,4 +61,4 @@ https://github.com/oklai/koala/wiki/Unable-to-run-Koala-in-Linux
 
 ### Note
 
-If you are not comfortable with the installation process or sass you can still work on the project by simply creating a css file inside `css` directory and include that in the appropriate html file. 
+If you are not comfortable with the installation process/sass/guard/kola you can still work on the project by simply creating a css file inside `css` directory and include that in the appropriate html file.  Simply clone the repo and start working on it.
