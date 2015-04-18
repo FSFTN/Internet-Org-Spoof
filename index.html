@@ -54,7 +54,7 @@
       </div>
 
       <div id="main" class="landing homepage">
-        <div class="fb-loader-wrapper" style="display: none;">
+        <div class="fb-loader-wrapper" style="">
           <div class="internet-org-logo"></div>
           <div class="fb-loader"></div>
         </div>
@@ -135,10 +135,12 @@
           <script src="assets/js/vendor/fastclick.js"></script>
           <script src="assets/js/foundation.min.js"></script>
           <script src="assets/js/index.js"></script>
-          <script src="assets/js/main-desktop.min.js"></script>
+
           <script>
             $(document).foundation();
-
+            $(window).load(function() {
+              $('.fb-loader-wrapper').fadeOut();
+            });
 
           </script>
         </body>
