@@ -1,5 +1,7 @@
 # internet_org_spoof
 
+[![Join the chat at https://gitter.im/FSFTN/internet_org_spoof](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/FSFTN/internet_org_spoof?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 ### Setting up the development environment
 
